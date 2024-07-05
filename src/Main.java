@@ -23,5 +23,9 @@ public class Main {
         carNumOne.color = "Grey";
         carNumOne.seats = 4;
         carNumOne.display();
+
+        // constructor initialization
+        Bike bikeNumOne = new Bike("Honda C90", "Grey", 2);
+        bikeNumOne.display();
     }
 }

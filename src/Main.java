@@ -99,5 +99,9 @@ public class Main {
         // Constructor overloading
         ConstructorOverloading constructorOverloading = new ConstructorOverloading(10);
 
+        // Polymorphism - Method Overriding
+        SingleInheritanceA a = new SingleInheritanceB();
+        a.singleInhMethodA();
+
     }
 }

@@ -68,5 +68,33 @@ public class Main {
         multilevelInheritanceC.multilevelInhMethodC();
         multilevelInheritanceC.multilevelInhMethodB();
         multilevelInheritanceC.multilevelInhMethodA();
+
+
+        /* Polymorphism
+        *  Method Overloading
+        *  Method Overriding */
+
+        /* Method Overloading (3 ways)
+        *
+        * By number of parameters
+        * By data type of the parameter
+        * By order of the parameter
+        *
+        * */
+
+        MethodOverloading methodOverloading = new MethodOverloading();
+
+        // By number of parameters
+        methodOverloading.numberOfParameters();
+        methodOverloading.numberOfParameters(10);
+
+        //By data type of the parameter
+        methodOverloading.dataType(10);
+        methodOverloading.dataType(10f);
+
+        //By order of the parameter
+        methodOverloading.orderOfParameter(10f, 10);
+        methodOverloading.orderOfParameters(10,10f);
+
     }
 }

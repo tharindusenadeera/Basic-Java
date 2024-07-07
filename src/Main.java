@@ -102,6 +102,7 @@ public class Main {
         // Polymorphism - Method Overriding
         SingleInheritanceA a = new SingleInheritanceB();
         a.singleInhMethodA();
+        System.out.println("variable " + a.i); // Cannot achieve by data members
 
     }
 }

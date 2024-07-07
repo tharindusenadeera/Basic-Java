@@ -96,5 +96,8 @@ public class Main {
         methodOverloading.orderOfParameter(10f, 10);
         methodOverloading.orderOfParameters(10,10f);
 
+        // Constructor overloading
+        ConstructorOverloading constructorOverloading = new ConstructorOverloading(10);
+
     }
 }

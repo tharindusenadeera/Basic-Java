@@ -126,5 +126,10 @@ public class Main {
         paperA3.show();
         paperA3.print();
 
+        // Encapsulation
+        EncapsulationA encapsulationA = new EncapsulationA();
+        encapsulationA.setName("Tharindu");
+        System.out.println("Name is " + encapsulationA.getName());
+
     }
 }

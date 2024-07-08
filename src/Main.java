@@ -104,5 +104,13 @@ public class Main {
         a.singleInhMethodA();
         System.out.println("variable " + a.i); // Cannot achieve by data members
 
+        // Instanceof
+        Main main = new Main();
+        System.out.println(main instanceof Main);
+
+        // Abstraction
+        Bank1 bank1 = new Bank1();
+        bank1.getInterest();
+
     }
 }

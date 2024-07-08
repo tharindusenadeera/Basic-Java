@@ -112,5 +112,19 @@ public class Main {
         Bank1 bank1 = new Bank1();
         bank1.getInterest();
 
+        //Interfaces
+        PaperA6 paperA6 = new PaperA6();
+        paperA6.print();
+
+        //Multiple inheritance
+        PaperA4 paperA4 = new PaperA4();
+        paperA4.draw();
+        paperA4.print();
+
+        //Interface inheritance
+        PaperA3 paperA3 = new PaperA3();
+        paperA3.show();
+        paperA3.print();
+
     }
 }

@@ -44,6 +44,10 @@ public class Main {
         singleInheritanceB.singleInhMethodB();
         singleInheritanceB.singleInhMethodA();
 
+        SingleInheritanceA singleInheritanceA1 = new SingleInheritanceB();
+        singleInheritanceA1.singleInhMethodA();
+        //singleInheritanceA1.singleInhMethodB(); Cannot be used
+
         //Hierarchical Inheritance
         HierarchicalInheritanceA hierarchicalInheritanceA = new HierarchicalInheritanceA();
         hierarchicalInheritanceA.hierarchicalInhMethodA();
